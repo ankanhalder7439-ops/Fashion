@@ -1,0 +1,35 @@
+ <div>
+                
+                <input type="search" required placeholder="Enter Your Products" class="sm:rounded-[50px] h-3 sm:h-10 w-50 sm:w-80 md:w-120 border-[1px] border-[#5900FF] hidden sm:flex ">
+               
+            </div>
+
+            
+            <div class=" flex justify-center sm:justify-between items-center gap-0 md:gap-1 mr-5">
+
+                
+                <div class="w-10 rounded-full flex sm:hidden justify-center items-center cursor-pointer">
+                   <i class="fa-solid fa-magnifying-glass text-[20px] sm:text-[28px] md:text-[34px] text-center" style="color: rgb(0, 0, 0);"></i>
+                </div>
+
+                
+                <div class="w-10 rounded-full flex justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-heart text-[20px] sm:text-[28px] md:text-[34px] text-center" style="color: rgb(255, 2, 221);"></i>
+                </div>
+            
+        
+            
+                <div class="w-10 rounded-full flex justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-cart-shopping text-[20px] sm:text-[28px] md:text-[34px] text-center" style="color: rgb(0, 0, 0);"></i>
+                </div>
+            
+                
+                <div class="w-10 rounded-full flex justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-circle-user text-[20px] sm:text-[28px] md:text-[34px] text-center" style="color: rgb(0, 0, 0);"></i>
+                </div>
+                 
+                 
+              
+            </div>
+
+             <hr class="h-[2px] w-[70%] mx-auto border-0 bg-gradient-to-r from-[#5900FF] via-white to-[#5900FF]"/>

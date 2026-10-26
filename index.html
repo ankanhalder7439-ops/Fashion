@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENFASH</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        .scrollbar-hide::-webkit-scrollbar {
+         display: none;
+        }
+
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        *{
+            padding: 0;
+        }
+    </style>
+
+</head>
+<body class="bg-[#5900FF]">
+
+    <!-- marquee -->
+    <marquee behavior="scroll" direction="left" scrollamount="10" class="bg-black text-white py-3">
+        SAVE NOW: FREE SHIPPING OVER ₹599 • 15-DAY FREE RETURNS • HASSLE-FREE REFUNDS • EXTRA 10% OFF ON PREPAID PAYMENTS •
+    </marquee>
+
+
+    <!-- navbar -->
+    <div class="navbar bg-transparent p-0 mt-0">
+
+       <div class="w-full flex justify-between items-center gap-4">
+            <!-- text -->
+            <div>
+                <a class="text-xl">
+                
+                  <h2 class="font-bold text-white font-[Rubik] text-[30px] ml-5 text-linear-to-b from-[#5900FF] to-black cursor-pointer animate__animated animate__fadeInLeft">ENFASH</h2>
+
+                </a>
+            </div>
+
+            <!-- icons -->
+            <div class="md:flex gap-5 mr-10 hidden">
+
+                
+
+                <input type="search" Placeholder="Search & Explore Here ....." class="h-10 w-50 sm:w-80 md:w-120 rounded-[50px] relative outline-white focus:outline-none border-none bg-white" style="padding-left: 15px;">
+
+                <div>
+                    <i class="fa-solid fa-magnifying-glass text-[20px] sm:text-[28px] md:text-[20px] text-center absolute right-65 top-[22px]" style="color: rgb(0, 0, 0);"></i>
+                </div>
+
+               <div class="flex gap-1 items-center">
+                    <div>
+                       <i class="fa-solid fa-heart text-[20px] sm:text-[28px] md:text-[30px] text-center" style="color: rgb(255, 2, 221);"></i>
+                   </div>
+
+                   <div>
+                       <i class="fa-solid fa-cart-shopping text-[20px] sm:text-[28px] md:text-[30px] text-center" style="color: white"></i>
+                   </div>
+
+                   <div>
+                       <i class="fa-solid fa-circle-user text-[20px] sm:text-[28px] md:text-[30px] text-center" style="color: white;"></i>
+                   </div>
+               </div>
+            </div>
+
+           
+
+
+            <div class="block md:hidden text-[30px] font-bold cursor-pointer mr-5 text-white" id="toggle">
+                ☰
+            </div>
+       </div>
+   </div>
+
+
+   <!-- navbar end -->
+
+    <!-- menu start-->
+    
+    <div class="sm:mt-0 mx-auto h-10 w-full overflow-x-auto overflow-y-hidden bg-[#5900FF] px-4 scrollbar-hide cursor-pointer sm:h-auto  md:h-10 md:w-[950px] hover:md:w-[1200px]  md:overflow-hidden md:rounded-[50px] md:border md:border-white transition-all duration-300 ease-in-out">
+         <ul class="animate__animated animate__flipInX ml-10  flex h-full w-max flex-row items-center justify-start gap-8 whitespace-nowrap font-[Inter] text-[14px] text-white sm:grid sm:h-auto sm:w-full sm:grid-cols-4 sm:justify-items-center sm:gap-x-4 sm:gap-y-2 sm:whitespace-normal sm:py-2 sm:text-[12px] md:flex md:h-full md:w-max md:justify-center hover:md:gap-12 transition-all duration-300 ease-in-out md:gap-8 md:whitespace-nowrap md:py-0 md:text-[17px] sm:mx-auto ml-10">
+            <li class="shrink-0">HOME</li>
+            <li class="shrink-0">MEN</li>
+            <li class="shrink-0">WOMEN</li>
+            <li class="shrink-0">KIDS</li>
+            <li class="shrink-0">LAST OF THE BEST</li>
+            <li class="shrink-0">NEW ARRIVALS</li>
+            <li class="shrink-0">SHOP ALL</li>
+            <li class="shrink-0 ">CONTACT</li>
+
+        </ul>
+    </div>
+   
+    <!-- menu end -->
+  <hr class="block sm:hidden h-[2px] w-[70%] mx-auto border-0 bg-gradient-to-r from-[#5900FF] via-white to-[#5900FF]"/>
+
+
+    <!-- hero section start -->
+    <div class="w-full h-[600px] sm:h-auto md:h-[709px] bg-linear-to-b from-[#5900FF] to-black md:flex transition-all duration-300 ease-in-out overflow-hidden">
+
+        <div class="md:w-[60%] w-full -mt-25 md:mt-0">
+            <div class=" w-full md:w-120 ml-0 md:ml-30 mt-[138px] mx-auto">
+               <h2 class="text-[35px] sm:text-[60px] md:text-[100px] font-bold text-white font-[Righteous] leading-[82px] text-center md:text-left animate__animated animate__fadeInLeft">DRESS TO <br class="hidden md:flex"><span class="text-pink-500">IMPRESS</span></h2>
+            </div>
+            <div class="w-full md:w-200 h-10 sm:h-30 -ml-5 md:ml-30 md:-mt-10 -mt-5 flex items-center transition-all duration-300 ease-in-out">
+                <hr class="h-[2px] w-[62%] bg-pink-600 ml-20 border-0 margin-0">
+                <h2 class="text-[15px] sm:text-[30px] md:text-[50px] font-bold text-white font-[Righteous] leading-[82px] mb-0 md:mb-5 ml-2">L<span class="text-pink-500">o</span>a<span class="text-pink-500">d</span>i<span class="text-pink-500">n</span>g</h2>
+            </div>
+            <div class="w-full md:w-200 ml-0 md:ml-30 md:-mt-5 sm:-mt-10 mt-0 text-center" style="padding:0 15px">
+                <p class="text-[18px] sm:text-[25px] md:text-[20px] font-bold text-white font-[Righteous] ">Wear Your Imagination" "Custom Tees,<br class="flex md:hidden"> Crafted by You" "Your Idea. Our Print.</p>
+            </div>
+        </div>
+
+        <div class="md:w-[60%] w-full transition-all duration-300 ease-in-out">
+            <div class="flex justify-center md:-mt-1">
+                <img src="./photos/1791177428_GS_MS-removebg-preview.png" class="relative w-[90%] md:w-[56%] hover:-translate-y-5 ml-0 md:ml-30 mt-10 transition-all duration-300 ease-in-out animate__animated animate__slideInUp" alt="shirt">
+                
+                
+            </div>
+            <div class="absolute top-163 md:top-170  sm:left-100 md:left-0 w-full  h-40 bg-linear-to-b from-transparent via-black to-black animate__animated animate__slideInDown"></div>
+        </div>
+ </div>
+
+    <div class="absolute md:-mt-70  w-full flex justify-center md:justify-start px-4 md:px-0">
+        <button class="bg-pink-500 font-[Righteous] text-[30px] text-white w-65 h-15 transition-all duration-300 ease-in-out hover:-translate-y-5 cursor-pointer px-6 py-3 rounded-full mt-5 md:ml-30 hover:bg-pink-600 animate__animated animate__fadeInUp">
+            EXPLORE NOW
+        </button>
+    </div>
+
+
+
+
+
+
+    <!-- 2nd section -->
+
+    <div class="bg-black w-full h-auto mt-15 md:mt-0" style="padding-top: 50px;">
+
+        <!-- heading -->
+
+        <div class="w-auto h-auto">
+            <h2 class="text-black text-[34px] font-bold text-center font-[Righteous] text-white hover:tracking-[10px] transition-all duration-300 ease-in-out">BEST SELLERS</h2>
+        </div>
+
+        <!-- GRIDS -->
+
+        <div class="flex md:flex-row flex-col items-center justify-evenly w-auto h-auto mt-10 gap-10 md:gap-4 mx-auto overflow-x-scroll overflow-y-hidden transition-all duration-300 ease-in-out md:overflow-hidden md:scrollbar-hide md:gap-10" style="padding-top: 30px;">
+
+            <!-- 1st -->
+            <div class="w-[300px] text-black hover:text-white h-[455px] border-2 border-black bg-white hover:bg-linear-to-b from-white via-black to-black transition-all duration-300 ease-in-out hover:-translate-y-5 cursor-pointer" style="padding:15px 15px 25px 15px">
+                <!-- picture -->
+                <div class="w-full h-[75%] bg-white rounded-[0_20px_0_20px] overflow-hidden border-2 relative">
+                    <img src="./photos/b904d86d-b718-4207-91a1-935b2de947511739351886099-Bewakoof-Demon-Slayer-Anime-Graphic-Oversized-T-shirt-597173-1.webp" alt="Best Seller">
+                </div>
+
+                <!-- icon -->
+                <div class="absolute -mt-77 ml-57 bg-white w-10 h-10 rounded-[50%] border-black border-2 flex justify-center items-center">
+                    <i class="fa-solid fa-heart text-[25px]" style="color: rgb(255, 0, 148);"></i>
+                </div>
+
+                <!-- text -->
+
+                <div class="">
+                    <div>
+                       <h2 class="my-2 mb-0 text-[23px] font-[Righteous] font-bold text-center">900 RUPPES</h2>
+
+                    </div>
+
+                    <div>
+                        <h2 class="text-[23px] font-[Righteous] font-bold text-center">Trending Anime T-Shirt </h2>
+    
+                    </div>
+                   
+                    <button class="btn btn-primary w-65">ADD TO CART</button>
+
+                </div>
+                
+            </div>
+
+            <!-- 2nd -->
+            <div class="w-[300px] text-black hover:text-white h-[455px] border-2 border-black bg-white hover:bg-linear-to-b from-white via-black to-black transition-all duration-300 ease-in-out hover:-translate-y-5 cursor-pointer" style="padding:15px 15px 25px 15px">
+                <!-- picture -->
+                <div class="w-full h-[75%] bg-white rounded-[0_20px_0_20px] overflow-hidden border-2 relative">
+                    <img src="./photos/LViz9Pvz_65296bb0e56d40af84a1d78288fa7d63.webp" alt="Best Seller">
+                </div>
+
+                <!-- icon -->
+                <div class="absolute -mt-77 ml-57 bg-white w-10 h-10 rounded-[50%] border-black border-2 flex justify-center items-center">
+                    <i class="fa-solid fa-heart text-[25px]" style="color: rgb(255, 0, 148);"></i>
+                </div>
+
+                <!-- text -->
+
+                <div class="">
+                    <div>
+                       <h2 class="my-2 mb-0 text-[23px] font-[Righteous] font-bold text-center">900 RUPPES</h2>
+
+                    </div>
+
+                    <div>
+                        <h2 class="text-[23px] font-[Righteous] font-bold text-center">Trending Anime T-Shirt </h2>
+    
+                    </div>
+                   
+                    <button class="btn btn-primary w-65">ADD TO CART</button>
+
+                </div>
+                
+            </div>
+
+            <!-- 3rd -->
+            <div class="w-[300px] text-black hover:text-white h-[455px] border-2 border-black bg-white hover:bg-linear-to-b from-white via-black to-black transition-all duration-300 ease-in-out hover:-translate-y-5 cursor-pointer" style="padding:15px 15px 25px 15px">
+                <!-- picture -->
+                <div class="w-full h-[75%] bg-white rounded-[0_20px_0_20px] overflow-hidden border-2 relative">
+                    <img src="./photos/-473Wx593H-702740155-navy-MODEL.avif" alt="Best Seller">
+                </div>
+
+                <!-- icon -->
+                <div class="absolute -mt-77 ml-57 bg-white w-10 h-10 rounded-[50%] border-black border-2 flex justify-center items-center">
+                    <i class="fa-solid fa-heart text-[25px]" style="color: rgb(255, 0, 148);"></i>
+                </div>
+
+                <!-- text -->
+
+                <div class="">
+                    <div>
+                       <h2 class="my-2 mb-0 text-[23px] font-[Righteous] font-bold text-center">900 RUPPES</h2>
+
+                    </div>
+
+                    <div>
+                        <h2 class="text-[23px] font-[Righteous] font-bold text-center">Trending Anime T-Shirt </h2>
+    
+                    </div>
+                   
+                    <button class="btn btn-primary w-65">ADD TO CART</button>
+
+                </div>
+                
+            </div>
+
+            <!-- 4th -->
+            <div class="w-[300px] text-black hover:text-white h-[455px] border-2 border-black bg-white hover:bg-linear-to-b from-white via-black to-black transition-all duration-300 ease-in-out hover:-translate-y-5 cursor-pointer" style="padding:15px 15px 25px 15px">
+                <!-- picture -->
+                <div class="w-full h-[75%] bg-white rounded-[0_20px_0_20px] overflow-hidden border-2 relative">
+                    <img src="./photos/men-s-black-wind-hashira-graphic-printed-oversized-t-shirt-647144-1739174306-1.webp" alt="Best Seller">
+                </div>
+
+                <!-- icon -->
+                <div class="absolute -mt-77 ml-57 bg-white w-10 h-10 rounded-[50%] border-black border-2 flex justify-center items-center">
+                    <i class="fa-solid fa-heart text-[25px]" style="color: rgb(255, 0, 148);"></i>
+                </div>
+
+                <!-- text -->
+
+                <div class="">
+                    <div>
+                       <h2 class="my-2 mb-0 text-[23px] font-[Righteous] font-bold text-center">900 RUPPES</h2>
+
+                    </div>
+
+                    <div>
+                        <h2 class="text-[23px] font-[Righteous] font-bold text-center">Trending Anime T-Shirt </h2>
+    
+                    </div>
+                   
+                    <button class="btn btn-primary w-65">ADD TO CART</button>
+
+                </div>
+                
+            </div>
+
+            <!-- 5th -->
+
+            <div class="w-[300px] text-black hover:text-white h-[455px] border-2 border-black bg-white hover:bg-linear-to-b from-white via-black to-black transition-all duration-300 ease-in-out hover:-translate-y-5 cursor-pointer" style="padding:15px 15px 25px 15px">
+                <!-- picture -->
+                <div class="w-full h-[75%] bg-white rounded-[0_20px_0_20px] overflow-hidden border-2 relative">
+                    <img src="./photos/Anime3.webp" alt="Best Seller">
+                </div>
+
+                <!-- icon -->
+                <div class="absolute -mt-77 ml-57 bg-white w-10 h-10 rounded-[50%] border-black border-2 flex justify-center items-center">
+                    <i class="fa-solid fa-heart text-[25px]" style="color: rgb(255, 0, 148);"></i>
+                </div>
+
+                <!-- text -->
+
+                <div class="">
+                    <div>
+                       <h2 class="my-2 mb-0 text-[23px] font-[Righteous] font-bold text-center">900 RUPPES</h2>
+
+                    </div>
+
+                    <div>
+                        <h2 class="text-[23px] font-[Righteous] font-bold text-center">Trending Anime T-Shirt </h2>
+    
+                    </div>
+                   
+                    <button class="btn btn-primary w-65">ADD TO CART</button>
+
+                </div>
+                
+            </div>
+        </div>
+  </div>
+
+
+
+    
+</body>
+</html>
